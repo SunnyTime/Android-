@@ -5,8 +5,10 @@ Git的基本操作
 
 git init
 在目录中创建新的Git仓库。
+
 mkdir gittest  ------>创建gittest文件夹
 cd gittest
+
 git init
 此时目录中讲生成.git子目录。
 
