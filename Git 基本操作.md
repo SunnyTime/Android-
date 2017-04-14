@@ -6,6 +6,7 @@ git init<br>
 
 mkdir gittest  ------>创建gittest文件夹    
 cd gittest
+进入gittest文件夹。
 
 git init
 此时目录中讲生成.git子目录。
@@ -28,7 +29,7 @@ git diff
 查看改动内容。
 
 git commit
-将缓存内容添加到仓库中
+将缓存内容添加到仓库中。
 
 
 
