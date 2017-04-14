@@ -1,7 +1,7 @@
 # Git知识点
 <h2>Git的基本操作
 <h3>获取与创建项目</h3>
-git init    
+git init<br>  
 在目录中创建新的Git仓库。
 
 mkdir gittest  ------>创建gittest文件夹    
