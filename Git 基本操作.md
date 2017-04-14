@@ -8,38 +8,31 @@ git init
 
 mkdir gittest  ------>创建gittest文件夹 
 
-cd gittest
-
+cd gittest    
 进入gittest文件夹。
 
-git init
-
+git init    
 此时目录中讲生成.git子目录。
 
-git clone
-
+git clone    
 拷贝一个Git仓库带本地
 
 ---
 
 ####传代码的基本步骤
 
-git status
-
+git status    
 查看项目当前状态，如果有修改等操作会将文件列出来。
 
-git add _file_ file为要缓存的文件
-
+git add_file_ file为要缓存的文件    
 将文件添加到缓存。
 
 再次使用git status进行查看。
 
-git diff
-
+git diff    
 查看改动内容。
 
-git commit
-
+git commit  
 将缓存内容添加到仓库中。
 
 
