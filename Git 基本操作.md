@@ -2,6 +2,7 @@
 ###Git的基本操作
 ####获取与创建项目
 git init
+
 在目录中创建新的Git仓库
 
 mkdir gittest  ------>创建gittest文件夹 
