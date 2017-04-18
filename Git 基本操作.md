@@ -42,7 +42,15 @@ git branch -a
 列出所有分支。
 
 git branch newBranch  
-创建新的分支。  
+创建新的分支。
+
+git branch -d  
+删除分支
+
+git merge  
+合并分支。
+
+如果合并分支冲突解决完冲突后使用git add 冲突文件，说明冲突已解决。 
 
 
 
