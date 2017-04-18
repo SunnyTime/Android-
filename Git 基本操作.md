@@ -35,6 +35,16 @@ git diff
 git commit  
 将缓存内容添加到仓库中。
 
+---
+
+#### 分支管理
+git branch -a    
+列出所有分支。
+
+git branch newBranch  
+创建新的分支。  
+
+
 
 
 
