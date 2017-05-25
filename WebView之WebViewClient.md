@@ -103,6 +103,9 @@ public class MyActivity extends Activity {
 在未重写onKeyDown前的效果图：点击回退按钮，整个Activity就销毁了
 
 
+---
+
+
 
 
 
