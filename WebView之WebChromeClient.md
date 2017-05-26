@@ -46,7 +46,8 @@ public void openFileChooser(ValueCallback<Uri> uploadMsg, String acceptType, Str
 解决方法：    
 1.） android提供方法给js调用选择图片上传。    
 2.）用com.tencent.smtt.sdk.WebView代替原生的WebView。        
-对于com.tencent.smtt.sdk.WebView也会有很多问题 http://x5.tencent.com/doc?id=1003    
+对于com.tencent.smtt.sdk.WebView也会有很多问题    
+http://x5.tencent.com/doc?id=1003    
 
 http://www.jianshu.com/p/e75fa22c7f06?utm_campaign=haruki&utm_content=note&utm_medium=reader_share&utm_source=qq
 
