@@ -50,7 +50,7 @@ public void openFileChooser(ValueCallback<Uri> uploadMsg, String acceptType, Str
 
 http://www.jianshu.com/p/e75fa22c7f06?utm_campaign=haruki&utm_content=note&utm_medium=reader_share&utm_source=qq
 
-http://bbs.mb.qq.com/forum-110-4.html
+http://bbs.mb.qq.com/forum-110-4.html    
 2. onJsPrompt
 在Android API level 16以及之前的版本存在远程代码执行安全漏洞，16以上的版本通过添加@JavascriptInterface注解解决漏洞，16一下的版本却没有解决，如果app的要兼容16一下的可采用可以利用prompt方法传参以完成java与js的交互。对应java中的onJsPrompt方法的声明如下：
 ```
