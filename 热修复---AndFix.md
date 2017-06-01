@@ -100,7 +100,14 @@ apkpatch.bat -f new.apk -t old.apk -o output1 -k ***.jks -p * -a * -e *
 <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS"></uses-permission>
 ```
 
+----------
+
+[AndFix源码地址][4]
+有关AndFix的源码分析可参考：[Alibaba-AndFix Bug热修复框架原理及源码解析][5]
+
 
   [1]: https://github.com/alibaba/AndFix/raw/master/tools/apkpatch-1.0.3.zip
   [2]: https://github.com/SunnyTime/ProgrammerData/blob/master/hotfix1.png
   [3]: https://github.com/SunnyTime/ProgrammerData/blob/master/patchsuccess.png
+  [4]: https://github.com/alibaba/AndFix
+  [5]: http://blog.csdn.net/qxs965266509/article/details/49816007.com/SunnyTime/ProgrammerData/blob/master/patchsuccess.png
