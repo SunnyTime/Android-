@@ -102,7 +102,7 @@ apkpatch.bat -f new.apk -t old.apk -o output1 -k ***.jks -p * -a * -e *
 
 ----------
 
-[AndFix源码地址][4]
+[AndFix源码地址][4]    
 有关AndFix的源码分析可参考：[Alibaba-AndFix Bug热修复框架原理及源码解析][5]
 
 
