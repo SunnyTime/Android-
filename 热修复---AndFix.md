@@ -76,7 +76,7 @@ mPatchManager.removeAllPatch();
 ![解压后的文件夹][2]
 2. 使用工具：apkpatch-1.0.3
 命令 : 
-apkpatch.bat -f new.apk -t old.apk -o output1 -k ***.jks -p * -a * -e *
+apkpatch.bat -f new.apk -t old.apk -o Dennis -k ***.jks -p * -a * -e *
 ```
 -f <new.apk> ：新版本
 -t <old.apk> : 旧版本
