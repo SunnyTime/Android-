@@ -72,11 +72,11 @@ mPatchManager.removeAllPatch();
 ```
 #### patch文件的生成
 1. 工具：[apkpatch-1.0.3][1]
-下载完成后解压。有Bug的APK和修复后的APK拷贝到解压目录下，将签名所用的.jks文件也拷贝到该目录下。如下图：
+下载完成后解压。有Bug的APK和修复后的APK拷贝到解压目录下，将签名所用的.jks文件也拷贝到该目录下。如下图：    
 ![解压后的文件夹][2]
 2. 使用工具：apkpatch-1.0.3
 命令 : 
-apkpatch.bat -f new.apk -t old.apk -o Dennis -k ***.jks -p * -a * -e *
+apkpatch.bat -f new.apk -t old.apk -o output1 -k ***.jks -p * -a * -e *
 ```
 -f <new.apk> ：新版本
 -t <old.apk> : 旧版本
@@ -86,7 +86,8 @@ apkpatch.bat -f new.apk -t old.apk -o Dennis -k ***.jks -p * -a * -e *
 -a <alias>： keystore 用户别名
 -e <alias password>： keystore 用户别名密码
 ```
-如果文件生成正确会出现如下信息：
+如果文件生成正确会出现如下信息：    
+![patch文件生成成功][3]
 
 #### 加载patch文件
 测试时可以将生成的patch文件拷贝到sd卡上，如果是线上包可以使用推送将patch下载到sd卡上。、
@@ -102,3 +103,4 @@ apkpatch.bat -f new.apk -t old.apk -o Dennis -k ***.jks -p * -a * -e *
 
   [1]: https://github.com/alibaba/AndFix/raw/master/tools/apkpatch-1.0.3.zip
   [2]: https://github.com/SunnyTime/ProgrammerData/blob/master/hotfix1.png
+  [3]: https://github.com/SunnyTime/ProgrammerData/blob/master/patchsuccess.png
