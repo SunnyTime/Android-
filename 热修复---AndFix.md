@@ -73,10 +73,10 @@ mPatchManager.removeAllPatch();
 #### patch文件的生成
 1. 工具：[apkpatch-1.0.3][1]
 下载完成后解压。有Bug的APK和修复后的APK拷贝到解压目录下，将签名所用的.jks文件也拷贝到该目录下。如下图：
-
+![解压后的文件夹][2]
 2. 使用工具：apkpatch-1.0.3
 命令 : 
-apkpatch.bat -f new.apk -t old.apk -o Dennis -k ***.jks -p * -a * -e *
+apkpatch.bat -f new.apk -t old.apk -o output1 -k ***.jks -p * -a * -e *
 ```
 -f <new.apk> ：新版本
 -t <old.apk> : 旧版本
@@ -99,4 +99,6 @@ apkpatch.bat -f new.apk -t old.apk -o Dennis -k ***.jks -p * -a * -e *
 <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS"></uses-permission>
 ```
 
+
   [1]: https://github.com/alibaba/AndFix/raw/master/tools/apkpatch-1.0.3.zip
+  [2]: https://github.com/SunnyTime/ProgrammerData/blob/master/hotfix1.png
